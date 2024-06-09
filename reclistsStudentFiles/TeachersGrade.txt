@@ -1,0 +1,211 @@
+
+CS 315 Project 2
+
+Name: Zeweldi, Natnael
+
+Grade: 83/100
+
+
+Compiling zeweldinatnael's project.
+
+Compiling main_equal.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing equal
+OK
+OK
+OK
+Compiling main_firsts.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing firsts
+OK
+OK
+OK
+Compiling main_flat.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing flat
+OK
+OK
+OK
+Compiling main_intersection.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing intersection
+OK
+OK
+OK
+Compiling main_islat.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing islat
+OK
+OK
+OK
+Compiling main_last.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing last
+OK
+OK
+last failed the following test.
+( (a b c d e f) (a b c d e f) (a b c d e f))
+Your output is:
+ f
+The correct output is:
+ ( a b c d e f )
+Compiling main_list_pair.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing list_pair
+OK
+OK
+OK
+Compiling main_list_union.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing list_union
+OK
+OK
+list_union failed the following test.
+(a b c d e f g h i j)
+(b d g i)
+Your output is:
+ ( a b b d c g d i e f g h i j )
+The correct output is:
+ ( a c e f h j b d g i )
+Compiling main_member.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing member
+OK
+OK
+OK
+Compiling main_shape.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing shape
+OK
+OK
+OK
+Compiling main_total_reverse.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing total_reverse
+total_reverse failed the following test.
+( a b c d e f )
+Your output is:
+ERROR -- error in cons
+The correct output is:
+ ( f e d c b a )
+total_reverse failed the following test.
+(a b (c d ((e) f ) ((a b (c d ((e) f )) a b (c d ((e) f ) ))) (c d ((e) f ) )) )
+Your output is:
+ERROR -- error in cons
+The correct output is:
+ ( ( ( ( f ( e ) ) d c ) ( ( ( ( f ( e ) ) d c ) b a ( ( f ( e ) ) d c )
+   b a ) ) ( f ( e ) ) d c ) b a )
+total_reverse failed the following test.
+((a (b (c) d) e ) f)
+Your output is:
+ERROR -- error in cons
+The correct output is:
+ ( f ( e ( d ( c ) b ) a ) )
+Compiling main_two_the_same.cpp
+
+solutions.cpp: In function ‘list_node* flat(list)’:
+solutions.cpp:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+solutions.cpp: In function ‘list_node* total_reverse(list)’:
+solutions.cpp:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+  159 | }
+      | ^
+Testing two_the_same
+OK
+two_the_same failed the following test.
+(a b (c d ((e) f ) ((a b (c d ((e) f )) a b (c d ((e) f ) ))) (c d ((e) f ) )) )
+(n ( m o ((p) q ) ((r s (t ((e) n )) m (o ((p) q ) ))) (r s ((t) u ) )) )
+Your output is:
+0
+The correct output is:
+1
+OK
